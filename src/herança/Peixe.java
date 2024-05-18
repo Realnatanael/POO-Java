@@ -5,8 +5,8 @@ public class Peixe extends Animal {
     private String caracteristica;
 
     // Construtor que inicializa os atributos da classe Peixe e Animal
-    public Peixe(String nome, float comprimento, int numeroDePatas, String cor, String ambiente, float velocidadeMedia, String caracteristica) {
-        super(nome, comprimento, numeroDePatas, cor, ambiente, velocidadeMedia);
+    public Peixe(String nome, float comprimento, int numeroDePatas, String cor, String ambiente, float velocidadeMedia, String sexo, String caracteristica) {
+        super(nome, comprimento, numeroDePatas, cor, ambiente, velocidadeMedia, sexo);
         this.caracteristica = caracteristica;
     }
 

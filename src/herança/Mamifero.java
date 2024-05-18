@@ -5,8 +5,8 @@ public class Mamifero extends Animal {
     private String alimento;
 
     // Construtor que inicializa os atributos da classe Mamifero e Animal
-    public Mamifero(String nome, float comprimento, int numeroDePatas, String cor, String ambiente, float velocidadeMedia, String alimento) {
-        super(nome, comprimento, numeroDePatas, cor, ambiente, velocidadeMedia);
+    public Mamifero(String nome, float comprimento, int numeroDePatas, String cor, String ambiente, float velocidadeMedia, String sexo, String alimento) {
+        super(nome, comprimento, numeroDePatas, cor, ambiente, velocidadeMedia, sexo);
         this.alimento = alimento;
     }
 

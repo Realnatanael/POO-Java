@@ -8,15 +8,17 @@ public class Animal {
     private String cor;
     private String ambiente;
     private float velocidadeMedia;
+    private String sexo; 
 
     // Construtor que inicializa os atributos
-    public Animal(String nome, float comprimento, int numeroDePatas, String cor, String ambiente, float velocidadeMedia) {
+    public Animal(String nome, float comprimento, int numeroDePatas, String cor, String ambiente, float velocidadeMedia, String sexo) {
         this.nome = nome;
         this.comprimento = comprimento;
         this.numeroDePatas = numeroDePatas;
         this.cor = cor;
         this.ambiente = ambiente;
         this.velocidadeMedia = velocidadeMedia;
+        this.sexo = sexo;
     }
 
     // Métodos get e set para cada atributo
@@ -52,6 +54,7 @@ public class Animal {
         this.cor = cor;
     }
 
+
     public String getAmbiente() {
         return ambiente;
     }
@@ -68,6 +71,14 @@ public class Animal {
         this.velocidadeMedia = velocidadeMedia;
     }
 
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo =sexo;
+    }
+
     // Método que imprime os dados do animal
     public void dados() {
         System.out.println("Nome: " + nome);
@@ -76,5 +87,6 @@ public class Animal {
         System.out.println("Cor: " + cor);
         System.out.println("Ambiente: " + ambiente);
         System.out.println("Velocidade média: " + velocidadeMedia + " m/s");
+        System.out.println("sexo: " + sexo);
     }
 }
