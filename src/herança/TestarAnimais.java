@@ -21,5 +21,10 @@ public class TestarAnimais {
         Ave arara = new Ave("Arara", 0.5f, 2, "Azul", "Terra", 0.5f, "fêmea", "Colorida");
         // Exibindo os dados da arara
         arara.dadosAve();
+
+        // Criação do objeto cobra do tipo Reptil
+        Reptil cobra = new Reptil("Cobra", 2.0f, 0, "Verde", "Terra", 1.0f, "fêmea", "Escamas");
+        // Exibindo os dados da cobra
+        cobra.dadosReptil();
     }
 }
