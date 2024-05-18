@@ -16,5 +16,10 @@ public class TestarAnimais {
         Mamifero ursocanada = new Mamifero("Urso-do-canadá", 180.0f, 4, "Vermelho", "Terra", 0.5f, "macho", "Mel");
         // Exibindo os dados do ursocanada
         ursocanada.dadosMamifero();
+
+        // Criação do objeto arara do tipo Ave
+        Ave arara = new Ave("Arara", 0.5f, 2, "Azul", "Terra", 0.5f, "fêmea", "Colorida");
+        // Exibindo os dados da arara
+        arara.dadosAve();
     }
 }

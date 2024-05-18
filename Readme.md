@@ -2,8 +2,8 @@
 
 ## A avaliação pede:
 
- Crie um projeto Heranca_POO, crie um pacote
-herança
+### Crie um projeto Heranca_POO, crie um pacote herança
+
 1. Crie uma classe Animal que obedeça à seguinte descrição:
 possua os atributos nome (String), comprimento (float),
 número de patas (int), cor (String), ambiente (String) e
@@ -17,14 +17,14 @@ que, quando chamado, imprime na tela uma espécie de
 relatório informando os dados do animal.
 Crie uma classe Peixe que herde da classe
 Animal e obedeça à seguinte descrição:
-⚫ possua um atributo caracteristica(String)
-⚫Crie um método construtor que receba por parâmetro
+ possua um atributo caracteristica(String)
+Crie um método construtor que receba por parâmetro
 os valores iniciais de cada um dos atributos (incluindo
 os atributos da classe Animal) e atribua-os aos seus
 respectivos atributos.
-⚫Crie ainda os métodos get e set para o atributo
+Crie ainda os métodos get e set para o atributo
 caracteristica.
-⚫Crie um método dadosPeixe sem parâmetro e do tipo
+Crie um método dadosPeixe sem parâmetro e do tipo
 void, que, quando chamado, imprime na tela uma
 espécie de relatório informando os dados do peixe
 (incluindo os dados do Animal e mais a característica).
@@ -32,14 +32,14 @@ espécie de relatório informando os dados do peixe
 
 . Crie uma classe Mamifero que herde da classe
 Animal e obedeça à seguinte descrição:
-⚫ possua um atributo alimento(String)
-⚫Crie um método construtor que receba por parâmetro
+ possua um atributo alimento(String)
+Crie um método construtor que receba por parâmetro
 os valores iniciais de cada um dos atributos (incluindo
 os atributos da classe Animal) e atribua-os aos seus
 respectivos atributos.
-⚫Crie ainda os métodos get e set para o atributo
+Crie ainda os métodos get e set para o atributo
 alimento.
-⚫Crie um método dadosMamifero sem parâmetro e do
+Crie um método dadosMamifero sem parâmetro e do
 tipo void, que, quando chamado, imprime na tela uma
 espécie de relatório informando os dados do mamifero
 (incluindo os dados do Animal e mais o alimento).
@@ -56,23 +56,23 @@ Velocidade: 2.0 m/s
 
 b) Crie um objeto tubarao do tipo Peixe e atribua os
 seguintes valores para seus atributos
- Nome: Tubarão
- Comprimento: 300 cm
- Patas: 0
- Cor: Cinzento
- Ambiente: Mar
- Velocidade: 1.5 m/s
- Caracteristica: Barbatanas e cauda
+ Nome: Tubarão
+ Comprimento: 300 cm
+ Patas: 0
+ Cor: Cinzento
+ Ambiente: Mar
+ Velocidade: 1.5 m/s
+ Caracteristica: Barbatanas e cauda
 
 c) Crie um objeto ursocanada do tipo Mamifero e
 atribua os seguintes valores para seus atributos:
- Nome: Urso-do-canadá
- Comprimento: 180 cm
- Patas: 4
- Cor: Vermelho
- Ambiente: Terra
- Velocidade: 0.5 m/s
- Alimento: Mel
+ Nome: Urso-do-canadá
+ Comprimento: 180 cm
+ Patas: 4
+ Cor: Vermelho
+ Ambiente: Terra
+ Velocidade: 0.5 m/s
+ Alimento: Mel
 
 d) Chame os método para imprimir os dados de cada um
 dos objetos criados.
